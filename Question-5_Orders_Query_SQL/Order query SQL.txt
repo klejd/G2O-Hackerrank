@@ -1,0 +1,3 @@
+Names of customers price of orders maximum price order first 10 years of first order
+
+SELECT c.name, o.price FROM orders o JOIN customers c ON o.order_id = c.order_id WHERE order_date BETWEEN (SELECT MIN(order_date) FROM orders ORDER BY order_date LIMIT 1) AND ((SELECT MIN(order_date) FROM orders ORDER BY order_date LIMIT 1) + INTERVAL 1 YEAR) ORDER BY price DESC LIMIT 1;

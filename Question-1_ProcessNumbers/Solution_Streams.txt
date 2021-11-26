@@ -1,0 +1,17 @@
+package AlgorithmsString;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class even_2_sorted {
+public static List<Integer> processNumbers(List<Integer> input){
+return	input.stream().filter(a->a%2==0).map(a->a*2).sorted().collect(Collectors.toList());
+
+	
+}
+	public static void main(String[] args) {
+		List<Integer> list = List.of(3,4,2,1);
+	System.out.println(	processNumbers(list));
+	}
+
+}

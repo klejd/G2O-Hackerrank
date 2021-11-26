@@ -1,0 +1,27 @@
+package AlgorithmsString;
+
+public class isPalindrome {
+	public static String reverse(String str) {
+		if(str.length()==1) {
+			return str;
+		}
+		String temp = "";
+		for(int i=str.length()-1;i>=0;i--) {
+			temp = temp+ str.charAt(i);
+		}
+		return temp;
+	}
+	public static boolean isPalindrome(String str) {
+	 String newstr = reverse(str);
+	 if(str.equals(newstr)) {
+		 return true;
+	 }
+	 return false;
+		
+	}
+	public static void main(String[] args) {
+		
+		System.out.println(isPalindrome("aba"));
+	}
+
+}
