@@ -1,0 +1,57 @@
+What is Di ( Dependency Injection) ?
+What are types of dependencies injection?  //Which one do you prefer and why ?
+What is Inversion  of control ?
+What is spring container?
+Serialization and why you have used it ? ( he will go deep in this topic)
+What is a singleton ?  How do you make a class singleton ?
+Design patterns -> Factory , session, session factory,proxy,template method , Prototype.
+What is a bean ?
+What is Application context ?
+Controller vs RestController ?
+Deadlock ?
+Righ Join and a scenario  to write sql query using right join ?
+How to improve the performance of sql query for fetching data ?
+Normalization forms ? (only 3 of them ) ((talk about normalization forms and tell spring boot is built  based on the idea of normalization.)
+Transactions ? @Transaction and scenario how u use it ?
+Stored procedure ?
+Triggers and example ?
+How to improve the performance of sql query for fetching data ? (talk about indexing(aanotation @Table(@index( column Name))) )
+In exception handling with multiple catches which one will be executed first ?
+Checked and unchecked exceptions and how to deal with unchecked exceptions ? 
+How does spring handle multiple environments?
+Springboot autoconfiguration ?
+(Important) Multithreading (extending threadand implementing runnable) you should also know how spring boot handle many requests . 
+Async vs sync vs blocking vs  unblocking ?
+Collection vs Collections ? He asked me what collection you  have used you should know that collection interface extends
+List queue set (set extends sorted set ) and list implements arraylist,vector linkedlist. Queue implement linkedlist and priorityqueue.
+SetImplements (Hashset linkedhashet and treeset). Also he asked me about what method you have used from class collections .
+Features of java 8 ? he will ask you about streams why  we use streams and not loops and stuff like these .
+Object oriented Programming :
+What do you understand with abstraction ?
+Encapsulation ?
+Polymorphism ?
+Inheritance (interface multiple inheritance and how do you handle two methods with the same name (using super keyword)) 
+interface ?
+how to create an immutable class and can we extend it(say no it may change the state)?
+abstract class (following up question are you required to override abstract methods  if you extend that class ) ?
+associations ?
+override and overload ? give examples ?
+
+If you applying for full stack  you will face  : (My case reactjs questions and js )
+closures  in js ?
+hoisting in js (u should talk about "var" let and const)?
+... operation in js(shallow copy) ? 
+How virtual dom works in react and what is it ?
+Class component and functional component  difference ?
+After that he is gonna ask you about  hooks in react ( context ,usestate ,useeeffect etc)
+Life cycle in react (componenctdidmount componentwillmount,componentwillupdate , componentdidupdate)
+Libraries you have used in react ? (lodash,bootstrap,jquery, axios, redux) added to this question-->
+what you have used for testing  ?  I said Jest
+what about springboot  ? i said restassured . He gave me a scenario=>how to test a controller.
+
+If the interviewer is senior he will ask you about web socket and flux ? And will provoke ( you should know Spring Data JPA is not reactive yet
+Spring Data Mongo is reactive)
+
+There was no question  for me about HIBERNATE.He may ask just what is ORM ?
+
+
